@@ -1,0 +1,301 @@
+/* main css */
+
+body {
+  font-family: Nunito;
+  color: #bfc9d4;
+  background: #1b1d33;
+}
+
+.foreground {
+  background: #060818;
+}
+
+.form-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+.form-form .form-form-wrap {
+  max-width: 700px;
+  margin: 0 auto;
+  min-width: 311px;
+  min-height: 100%;
+  align-self: center;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+}
+
+.form-form .form-container {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  min-height: 100%;
+}
+
+.form-form .form-container .form-content {
+  display: block;
+  width: 100%;
+  padding: 25px;
+  background: #060818;
+  text-align: center;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
+}
+
+.form-form .form-container .form-content h1 {
+  font-size: 32px;
+  color: #bfc9d4;
+}
+
+.justify-content-between {
+  -ms-flex-pack: justify!important;
+  justify-content: space-between!important;
+}
+
+.footer-section {
+  margin-top: 25px;
+  margin-bottom: 5px !important;
+  font-size: 14px !important;
+}
+
+.footer-section svg {
+  color: #e7515a;
+  fill: rgba(231, 81, 90, 0.419608);
+  width: 15px;
+  height: 15px;
+  vertical-align: text-top;
+}
+
+.loader{
+  margin-top: 20px;
+}
+.loader-text{
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .video {
+    width: 200%;
+  }
+  .webcam, .classifyOnClick {
+    position: relative;
+    float: left;
+    width: 20%;
+    margin: 1% 1%;
+    cursor: pointer;
+  }
+  
+  .webcam p {
+    position: absolute;
+    padding: 5px;
+    background-color: rgb(3, 0, 26);
+    color: #FFF;
+    border: 1px dashed rgba(255, 255, 255, 0.7);
+    z-index: 2;
+    font-size: 10px;
+  }
+  
+  .highlighter {
+    background: rgba(25, 0, 255, 0.25);
+    border: 1px dashed #fff;
+    z-index: 1;
+    position: absolute;
+  }
+  .form-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0 0;
+  }
+  .form-form .form-form-wrap {
+    max-width: 600px;
+    margin: 0 auto;
+  
+    align-self: center;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+  }
+  .form-form .form-container .form-content {
+    display: block;
+    width: 100%;
+    padding: 25px;
+    background: #060818;
+    text-align: center;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.form-form .form-form-wrap form .field-wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+.btnClass {
+  font-family: inherit;
+  touch-action: manipulation;
+  box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.1);
+  will-change: opacity, transform;
+  -webkit-transition: all 0.3s ease-out;
+  color: #fff !important;
+  background-color: #1b55e2 !important;
+  border-color: #1b55e2;
+  cursor: pointer;
+  align-self: center;
+  width: 100%;
+  padding: 10px 60px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-top: 50px;
+}
+
+/* css for video */
+
+video {
+  clear: both;
+  display: block;
+}
+
+.removed {
+  display: none;
+}
+
+.invisiblee {
+  opacity: 0.2 !important;
+}
+
+.note {
+  font-style: italic;
+  font-size: 130%;
+}
+
+.webcam, .classifyOnClick {
+  position: relative;
+  float: left;
+  width: 50%;
+  margin: 2% 1%;
+  cursor: pointer;
+}
+
+.webcam p {
+  position: absolute;
+  padding: 5px;
+  background-color: rgb(3, 0, 26);
+  color: #FFF;
+  border: 1px dashed rgba(255, 255, 255, 0.7);
+  z-index: 2;
+  font-size: 12px;
+}
+
+.highlighter {
+  background: rgba(25, 0, 255, 0.25);
+  border: 1px dashed #fff;
+  z-index: 1;
+  position: absolute;
+}
+
+.classifyOnClick {
+  z-index: 0;
+}
+
+.videoHolder {
+  padding-bottom: 300px !important;
+}
+
+/* login form */
+.form-btn {
+  font-family: inherit;
+  touch-action: manipulation;
+  box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.1);
+  will-change: opacity, transform;
+  -webkit-transition: all 0.3s ease-out;
+  color: #fff !important;
+  background-color: #1b55e2 !important;
+  border-color: #1b55e2;
+  cursor: pointer;
+  align-self: center;
+  width: 100%;
+  font-size: 16px;
+  padding: 10px 10px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+.form-btn:hover{
+  background-color: #002a96 !important;
+  border-color: #002a96;
+}
+.input-group{
+  background-color: #060818;
+  margin-bottom: 10px;
+}
+
+.alert{
+  padding: 10px 10px;
+  width: 100%;
+}
+
+.hide-field{
+  display: none;
+}
+.unhide-field{
+  display: block;
+}
+
+/* success field */
+.mask-field{
+  font-family: inherit;
+  touch-action: manipulation;
+  box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.1);
+  will-change: opacity, transform;
+  -webkit-transition: all 0.3s ease-out;
+  color: #fff !important;
+  background-color: #1be274 !important;
+  border-color: #1be274;
+  cursor: pointer;
+  align-self: center;
+  width: 100%;
+  font-size: 16px;
+  padding: 10px 10px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+.nomask-field{
+  font-family: inherit;
+  touch-action: manipulation;
+  box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.1);
+  will-change: opacity, transform;
+  -webkit-transition: all 0.3s ease-out;
+  color: #fff !important;
+  background-color: #e21b57 !important;
+  border-color: #e21b57;
+  cursor: pointer;
+  align-self: center;
+  width: 100%;
+  font-size: 16px;
+  padding: 10px 10px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+
+
+.my-canvas{
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  margin-left: 0%;
+}
