@@ -35,7 +35,7 @@ def detect_and_predict_mask(frame, faceNet, maskNet):
 
 		# filter out weak detections by ensuring the confidence is
 		# greater than the minimum confidence
-		if confidence > 0.5:
+		if confidence > 0.9:
 			# compute the (x, y)-coordinates of the bounding box for
 			# the object
 			box = detections[0, 0, i, 3:7] * np.array([w, h, w, h])
@@ -88,7 +88,7 @@ while True:
 	# grab the frame from the threaded video stream and resize it
 	# to have a maximum width of 400 pixels
 	frame = vs.read()
-	frame = imutils.resize(frame, width=400)
+	frame = imutils.resize(frame, width=900)
 
 	# detect faces in the frame and determine if they are wearing a
 	# face mask or not
